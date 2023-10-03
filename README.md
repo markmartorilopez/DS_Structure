@@ -27,3 +27,13 @@ git checkout -b feature/1-readme-update
 git add README.md
 git commit -m "#1 - update readme"
 git push --set-upstream origin feature/1-readme-update
+
+
+#### Add new color - Blue
+- Open a ticket.
+- Create feature branch adding ticket ID to the branch name.
+- Edit code.
+- Add code.
+- Commit code to feature branch.
+- Pull request to main.
+- Accept.
