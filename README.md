@@ -29,7 +29,7 @@ git commit -m "#1 - update readme"
 git push --set-upstream origin feature/1-readme-update
 
 
-#### Add new color - Blue
+#### Add new color - Green
 - Open a ticket.
 - Create feature branch adding ticket ID to the branch name.
 - Edit code.
@@ -51,3 +51,6 @@ git push --tags
 git checkout production
 git merge staging
 git push
+
+### Hotfix
+We are just adding this new hotfix to change the Color chosen from Blue to Green.
