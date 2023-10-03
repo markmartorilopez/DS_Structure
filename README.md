@@ -37,3 +37,17 @@ git push --set-upstream origin feature/1-readme-update
 - Commit code to feature branch.
 - Pull request to main.
 - Accept.
+
+#### Update Staging
+git checkout staging
+git merge main
+When all the tests running in staging have passed...
+We tag the staging version - Only Tagged Branches can be commited to Production.
+git checkout staging
+git tag 'v1.0.0' # mainupdate.minorupdate.hotfix
+git push --tags
+
+#### Production
+git checkout production
+git merge staging
+git push
